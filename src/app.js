@@ -9,7 +9,7 @@ const bcrypt = require("bcryptjs")
 const app = express();
 
 const hostname = "127.0.0.1";
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 const staticPath = path.join(__dirname,"../public");
 const templatePath = path.join(__dirname,"../templates/views");
