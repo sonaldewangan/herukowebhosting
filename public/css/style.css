@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------------- index page style -------------------------------*/
+
+/* --------------------------------------navbar-----------------------------------------*/
+
+.navbar{
+    display: flex;
+    height: 13vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.logo span{
+    font-size: 1.5rem;
+    color: black;
+    padding: 4px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.logo img{
+    height: 40px;
+}
+.navbar ul{
+    display: flex;
+    padding-left: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 7px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding: 5px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: gray;
+    transition: all 0.4ms;
+    font-weight: bold;
+}
+
+/* -----------------------------------index-------------------------------------------- */
+
+.home-index{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    /* background-color: rgb(109, 107, 107); */
+}
+.home-index-left{
+    padding: 10px;
+}
+.home-index-left h1{
+    font-size: 2.8rem;
+    font-family: 'Lora', serif;
+}
+.home-index-left p{
+    font-family: 'Vujahday Script', cursive;
+    font-size: 1.4rem;
+}
+.home-index .home-index-right img{
+    height: 250px;
+    border-radius: 500px;
+}
+
+/*-------------------------------- .home-shoes------------------------------------- */
+
+.home-shoes{
+    display: flex;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(165, 42, 42, 0.705); */
+}
+.home-shoes .section-1 h3{
+    text-align: center;
+    line-height: 0px;
+    font-size: 1.7rem;
+    font-family: 'Lora', serif;
+}
+.home-shoes .section-1 img{
+    height: 200px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+/*----------------------------- .home-buy & home-buy-1--------------------------------- */
+
+.home-buy{
+    /* background-color: gray; */
+    height: 50vh;
+    margin-top: 60px;
+}
+.home-buy-1{
+    /* background-color: cadetblue; */
+    height: 45vh;
+    margin-top: 30px;
+}
+.home-buy h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 10px;
+    font-family: 'Lora', serif;
+}
+.home-buy .section-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-buy-sub-1{
+    /* background-color: orangered; */
+    /* width: 50%; */
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.home-buy .section-2 .sub-section-1{
+    /* border: 3px solid red; */
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-buy .section-2 .sub-section-1 .brand{
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+}
+
+.home-buy .section-2 .sub-section-1 span{
+    background-color: red;
+    padding: 0px 7px 0px 7px;
+    border-radius: 4px;
+}
+.home-buy .section-2 .sub-section-1 img{
+    height: 135px;
+}
+
+/*------------------------------------- pics---------------------------------------- */
+
+.pics{
+    /* height: 50vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.pics .pics-left{
+    /* width: 50%; */
+    margin-right: 50px;
+}
+.pics .pics-right{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pics .pics-left img{
+    height: 640px;
+    border: 5px solid black;
+    outline: none;
+}
+.pics .pics-right img{
+    height: 300px;
+    /* margin-top: 30px; */
+    border: 5px solid black;
+    outline: none;
+
+}
+
+/*-------------------------------------- footer style--------------------------------- */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    font-size: 1.4rem;
+    height: 15vh;
+    font-family: 'Lora', serif;
+}
+
+
+
+/*----------------------------------- about page style-------------------------------- */
+
+.home-about{
+    height: 115vh;
+    background-image: linear-gradient(to bottom , black , rgb(43, 42, 42));
+}
+
+.home-about h1{
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 2.3rem;
+    text-shadow: 1.1px 1.1px 1.8px #ffff;
+    font-family: 'Lora', serif;
+}
+.about-home-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.side{
+    height: 380px;
+    width: 320px;
+    margin-top: 10px;
+}
+.middle{
+    background-color: blue;
+    margin-top: 240px;
+    height: 330px;
+    width: 420px;
+    position: absolute;
+}
+.about-sub-home-1{
+    background: url('../images/puma.jpg') no-repeat center center/cover  ;
+    border: 3.5px solid white;
+    box-shadow: -3.5px -5px 4.5px gray;
+}
+.about-sub-home-2{
+    background: url('../images/about-home-main.jpg') no-repeat center center/cover  ;
+    border: 4.5px solid gray; 
+} 
+.about-sub-home-3{
+    background: url('../images/nike-1.jpg') no-repeat center center/cover;
+    border: 3.5px solid white;
+    box-shadow: 3.5px -5px 4.5px gray;
+}
+
+.about-shoes{
+    height: 80vh;
+    margin-top: 15px;
+}
+.about-shoes::before{
+    content: "";
+    width: 90vw;
+    height: 80vh;
+    position: absolute;
+    z-index: -1;
+    background: url('../images/about-shoes.jpg') no-repeat center center/cover;
+}
+.about-shoes h1{
+    color: white;
+    font-size: 2.1rem;
+    text-align: end;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-family: 'Lora', serif;
+}
+
+.about-shoes span{
+    color: black;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.about-client{
+    background-color: black;
+    height: 40vh;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about-client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client{
+    /* border: 3px solid red; */
+    margin: 35px;
+}
+.about-client .client-head{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.client-1 img{
+    width: 150px;
+}
+.client-2 img{
+    width: 130px;
+}
+.client-3 img{
+    width: 165px;
+    margin-top: 17px;
+}
+
+/*------------------------------- register page style ----------------------------------*/
+
+.home-register{
+    margin:auto;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-register::before{
+    content: "";
+    position: absolute;
+    height: 60vh;
+    width: 90vw;
+    z-index: -1;
+    background: url('../images/home-register.jpg') no-repeat center center/cover;
+}
+.home-register h1{
+    font-size: 3.0rem;
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.registerform{
+    background-image: linear-gradient(to right,black,rgb(131, 129, 129));
+    height: 82vh;
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.registerform .registerform-left{
+    width: 35vw;
+    /* background-color: gray */
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.registerform .registerform-left img{
+    height: 70px;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+}
+
+.registerform .registerform-left .big{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    color: white;
+    /* margin-top: 100px; */
+}
+.registerform .registerform-left span{
+    color: blue;
+}
+.registerform .registerform-left .small{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    color: white;
+}
+.registerform .registerform-right{
+    width: 65vw;
+    background-color: rgb(71, 69, 69);
+    margin: 40px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.registerform .registerform-right{
+    border:2px solid red;
+}
+
+.registerform .registerform-right h2{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    font-family: 'Lora', serif;
+}
+
+.registerform .registerform-right .form{
+    width: 40vw;
+    display: block;
+    margin: auto;
+}
+
+.registerform .registerform-right .form input{
+    display: block;
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    padding: 3px;
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+}
+
+.registerform .registerform-right .form button{
+    display: block;
+    width: 20vw;
+    margin: auto;
+    /* margin-left: 63px; */
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    padding: 4px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+.registerform .registerform-right .form button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.4s;
+    font-weight: bold;
+    border :3px solid white;
+}
+
+
+
+/*----------------------------------- login page style------------------------------ */
+
+.login{
+    /* width: 96vw; */
+    height: 60vh;
+    background-color: gray;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.login h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.9rem;
+    font-family: 'Lora', serif;
+}
+.login div{
+    text-align: center;
+}
+.login .login-form{
+    /* background-color: plum; */
+    width: 25vw;
+    margin: auto;
+
+}
+
+.login .login-form .login-form-1 input{
+    width: 18vw;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+    font-family: 'Lobster Two', cursive;
+}
+
+.login .login-form .login-form-1 button{
+    margin: auto;
+    display: block;
+    width: 10vw;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    padding: 3px 6px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+}
+
+.login .login-form .login-form-1 button:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}

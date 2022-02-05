@@ -1,0 +1,452 @@
+/*------------------------------------ navbar------------------------------------- */
+
+@media only screen and (max-width:850px){
+
+
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar ul{
+        padding-left: 0px;
+    }
+    .navbar ul li a{
+        font-size: 1.1rem;
+    }
+
+}
+
+
+/*---------------------------------------- footer---------------------------------- */
+
+
+@media only screen and (max-width:700px){
+
+    .footer{
+        font-size: 1.2rem;
+        padding: 6px;
+    }
+}
+
+
+
+/*-------------------------------------- home page---------------------------------*/
+
+@media only screen and (max-width:1100px) and (min-width:771px){
+
+
+    .home-index{
+        height: 72vh;
+    }
+    .home-index-left h1{
+        font-size: 2.4rem;
+    }
+    .home-shoes{
+        height: 38vh;
+    }
+    .home-shoes .section-1 img{
+        height:130px ;
+        margin:30px ;
+    }
+    .home-buy{
+        height: 105vh;
+    }
+    .home-buy-1{
+        height: 92vh;
+    }
+    .section-2{
+        flex-direction: column;
+    }
+
+    .home-buy-sub-1{
+        margin: 10px;
+        width: 80%;
+    }
+    .home-buy .section-2 .sub-section-1 img{
+        height: 175px;
+    }
+
+    .pics .pics-left img{
+        height: 480px;
+    }
+    .pics .pics-right img{
+        height: 200px;
+        margin: 15px;
+    
+    }
+}
+
+
+@media only screen and (max-width:770px) and (min-width:451px){
+
+
+    .home-index{
+        flex-direction: column-reverse;
+        height: 110vh;
+        justify-content: center;
+    }
+    .home-index-left{
+        padding: 0px;
+    }
+    .home-index-left h1{
+        text-align: center;
+    }
+    .home-index-left p{
+        text-align: center;
+    }
+    .home-index .home-index-right img{
+        height: 200px;
+    }
+    .home-shoes{
+        flex-direction: column;
+        height: 133vh;
+    }
+    .home-shoes .section-1 img{
+        margin-top: 40px;
+    }
+
+    .home-buy{
+        height: 177vh;
+    }
+    .home-buy-1{
+        height: 167vh;
+    }
+    .home-buy h1{
+        padding-bottom: 18px;
+    }
+    .section-2{
+        flex-direction: column;
+    }
+    .home-buy-sub-1{
+        flex-direction: column;
+    }
+    .sub-section-1 img{
+        height: 175px;
+    }
+   .home-buy .section-2 .sub-section-1 img {
+    height: 165px;
+    }
+
+    .pics .pics-left{
+        margin-right: 25px;
+    }
+    .pics .pics-left img{
+        height: 270px;
+    }
+    .pics .pics-right img{
+        height: 120px;
+    }
+
+}
+
+
+@media only screen and (max-width:450px){
+
+    .home-index{
+        flex-direction: column-reverse;
+        height: 115vh;
+        justify-content: center;
+    }
+    .home-index-left{
+        padding: 0px;
+    }
+    .home-index-left h1{
+        text-align: center;
+    }
+    .home-index-left p{
+        text-align: center;
+    }
+    .home-index-left h1{
+        font-size: 2.0rem;
+    }
+    .home-index .home-index-right img{
+        height: 150px;
+    }
+
+    .home-shoes{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .home-shoes .section-1 img{
+        margin-top: 40px;
+        height: 130px;
+    }
+
+    .home-buy{
+        height: 177vh;
+    }
+    .home-buy-1{
+        height: 167vh;
+    }
+    .home-buy h1{
+        padding-bottom: 18px;
+    }
+    .section-2{
+        flex-direction: column;
+    }
+    .home-buy-sub-1{
+        flex-direction: column;
+    }
+    .sub-section-1 img{
+        height: 165px;
+    }
+   .home-buy .section-2 .sub-section-1 img {
+    height: 165px;
+    }
+
+    .pics .pics-left{
+        margin-right: 10px;
+    }
+    .pics .pics-left img{
+        height: 200px;
+    }
+    .pics .pics-right img{
+        height: 90px;
+    }
+    
+
+
+}
+
+
+/*-------------------------------------- about page---------------------------------*/
+
+@media only screen and (max-width:1100px) and (min-width:900px){
+
+    .side{
+        height: 380px;
+        width: 350px;
+    }
+    .middle{
+        height: 300px;
+        width: 420px;
+    }
+
+    
+}
+
+@media only screen and (max-width:900px) and (min-width:671px){
+
+
+    .home-about{
+        height: 95vh;
+    }
+    .side{
+        height: 250px;
+        width: 230px;
+        margin-top: 230px;
+    }
+    .middle{
+        height: 230px;
+        width: 270px;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width:670px){
+
+    .home-about{
+        height: 140vh;
+    }
+    .home-about h1{
+        padding-bottom: 15px;
+    }
+    .about-home-1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .about-sub-home-3{
+        box-shadow: 3.5px 5px 4.5px gray;
+    }
+    .side{
+        height: 220px;
+        width: 220px;
+        margin:20;
+
+    }
+    .middle{
+        height: 220px;
+        width: 220px;
+        position: static;
+        margin: 20px;
+    }
+    
+    .about-shoes h1{
+        text-align: center;
+        padding-right: 0px;
+        padding: 10px;
+        font-size: 1.8rem;
+    }
+    .about-client{
+        flex-direction: column;
+        height: 90vh;
+    }
+    .client{
+        margin: 10px;
+    }
+    .client-1 img{
+        width: 210px;
+    }
+    .client-2 img{
+        width: 230px;
+    }
+    .client-3 img{
+        width: 185px;
+    }
+
+}
+
+
+
+
+
+
+/*------------------------------------- register page-------------------------------*/
+
+@media only screen and (max-width:1000px) and (min-width:851px){
+
+
+    .registerform{
+        height: 70vh;
+    }
+    .registerform .registerform-right{
+        width: 70vw;
+        margin: 35px;
+    }
+    .registerform .registerform-right h2{
+        font-size: 1.5rem;
+    }
+    .registerform .registerform-right .form{
+        width: 30vw;
+    }
+    .registerform .registerform-right .form input{
+        padding: 1.5px; 
+    }
+}
+
+
+@media only screen and (max-width:850px) and (min-width:601px){
+
+
+    .home-register h1{
+        font-size: 2.3rem;
+    }
+    .registerform{
+        flex-direction: column;
+        height: 95vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .registerform .registerform-left{
+        width: 70vw;
+        padding-left: 0px;
+    }
+    .registerform .registerform-right{
+        width: 68vw;
+    }
+    .registerform .registerform-right h2{
+        font-size: 1.3rem;
+    }
+    .registerform-left-1{
+        display: flex;
+    }
+    .registerform-sub-left-1{
+        align-self: center;
+    }
+    .registerform .registerform-right .form{
+        width: 50vw;
+    }
+    .registerform .registerform-right .form input{
+        width: 35vw;
+        padding: 1.6px;
+    }
+    .registerform .registerform-right .form button{
+        margin-bottom: 20px;
+    } 
+}
+    
+@media only screen and (max-width:600px){
+
+
+    .home-register h1{
+        font-size: 2.3rem;
+    }
+    .registerform{
+        flex-direction: column;
+        background-image: linear-gradient(to bottom,black,rgb(131, 129, 129));
+        height: 95vh;
+        align-items: center;
+    }
+    .registerform .registerform-left .small{
+        display: none;
+    }
+    .registerform .registerform-left{
+        width: 55vw;
+        height: 20vh;
+        padding-left: 0px;
+    }
+    .registerform .registerform-right{
+        width: 68vw;
+    }
+    .registerform .registerform-right{
+        width: 65vw;
+        height: 65vh;
+        background-color: rgb(71, 69, 69);
+        margin: 40px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        
+    }
+    .registerform .registerform-right h2{
+        font-size: 2.0rem;
+    }
+    .registerform .registerform-right .form{
+        width: 60vw;
+    }
+    .registerform .registerform-right .form input{
+        width: 50vw;
+    }
+    .registerform .registerform-right .form button{
+        width: 30vw;
+    }
+    .registerform-left-1{
+        display: flex;
+    } 
+}
+
+
+/*-------------------------------------- login page---------------------------------*/
+
+@media only screen and (max-width:800px) and (min-width:600px){
+
+    .login{
+        max-width: 55vw;
+    }
+}
+
+@media only screen and (max-width:599px){
+
+
+    .login{
+        max-width: 70vw;
+        height: 43vh;
+    }
+    .login h1{
+        font-size: 1.6rem;
+    }
+    .login .login-form{
+        width: 60vw;
+    }
+    .login .login-form .login-form-1 input{
+        width: 55vw;
+    }
+    .login .login-form .login-form-1 button{
+        width: 30vw;
+    }
+}

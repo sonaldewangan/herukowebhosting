@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    {{>head}}
+
+</head>
+
+<body>
+
+    {{>navbar}}
+
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+
+    <section class="login max-width-4 m-auto">
+        <h1>Users Login</h1>
+        <div>
+            <i class="fas fa-4x fa-user"></i>
+        </div>
+        <form action="/login" method="post">
+            <div class="login-form">
+                <div class="login-form-1">
+                    <input type="email" placeholder="Enter your Email" name=email>
+                </div>
+                <div class="login-form-1">
+                    <input type="password" placeholder="Enter your password" name="password">
+                </div>
+                <div class="login-form-1">
+                    <button type="submit">Login</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    {{>footer}}
+
+</body>
+
+</html>

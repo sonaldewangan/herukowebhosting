@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Bebas+Neue&family=Dancing+Script&family=Fuzzy+Bubbles&family=Lobster&family=Lobster+Two&family=Lora:ital,wght@1,500&family=Praise&family=Vujahday+Script&display=swap');
+
+/*
+font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Lora', serif;
+font-family: 'Praise', cursive;
+font-family: 'Vujahday Script', cursive;
+*/
+
+:root {
+    --first-color: #16f;
+    --second-color: #ff7;
+    --main-font1:'Lobster', cursive;
+    --main-fisrt:'Lora', serif;
+  }
+
+.m-auto{
+    margin: auto;
+}
+.max-width-1{
+    max-width: 90vw;
+}
+.max-width-2{
+    max-width: 50vw;
+}
+.max-width-3{
+    max-width: 25vw;
+}
+.max-width-4{
+    max-width: 40vw;
+}

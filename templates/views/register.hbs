@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    {{>head}}
+
+</head>
+
+<body>
+
+
+    {{>navbar}}
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+
+    <section class="home-register max-width-1 m-auto">
+        <h1>Welcome To Registration Page</h1>
+    </section>
+
+    <!-- <div class="max-width-1 m-auto">
+        <hr>
+    </div> -->
+
+    <section class="registerform max-width-1 m-auto">
+        <div class="registerform-left">
+            <div class="registerform-left-1">
+                <div class="registerform-sub-left-1">
+                    <img src="./images/register-shoes-2.jpg" alt="">
+                </div>
+                <div class="registerform-sub-left-2">
+                    <p class="big">Welocme to our <span>ShoesWorld</span></p>
+                    <p class="small">Register here if you want to see and buy our latest shoes collection.....</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="registerform-right">
+            <h2>Registration Form</h2>
+            <form action="/register" method="post">
+                <div class="register">
+                    <div class="form">
+                        <input type="text" placeholder="Enter your FullName" name="fullname">
+                    </div>
+                    <div class="form">
+                        <input type="text" placeholder="Enter your Gender" name="gender">
+                    </div>
+                    <div class="form">
+                        <input type="email" placeholder="Enter your Email" name="email">
+                    </div>
+                    <div class="form">
+                        <input type="tel" placeholder="Enter your Phone Number" name="phone">
+                    </div>
+                    <div class="form">
+                        <input type="text" placeholder="Enter Shoes Brand" name="brand">
+                    </div>
+                    <div class="form">
+                        <input type="password" placeholder="Enter Password" name="password">
+                    </div>
+                    <div class="form">
+                        <input type="password" placeholder="Enter Confirm Password" name="confirmpassword">
+                    </div>
+                    <div class="form">
+                        <button type="submit">Register</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    {{>footer}}
+
+</body>
+
+</html>
